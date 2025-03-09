@@ -22,7 +22,7 @@ class NeuralNetwork():
         The derivative of the sigmoid function used to
         calculate necessary weight adjustments
         """
-        return x * (1 - x)
+        #change this line return x * (1 - x)
 
     def train(self, training_inputs, training_outputs, training_iterations):
         """
